@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = 'INSElectronicProgramGuideLayout/*.{h,m}'
   s.requires_arc = true
 
-  s.platform = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.0'
   s.frameworks = 'UIKit'
 end
